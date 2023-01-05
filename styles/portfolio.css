@@ -65,6 +65,16 @@ nav li {
   font-size: 18px;
   margin-bottom: 30px;
 }
+.banner-contact-btn {
+  height: 64px;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 18px 35px;
+  margin-left: 30px;
+}
 /* main section */
 main {
   max-width: 1140px;
