@@ -30,7 +30,7 @@ section {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 50px 150px;
+  padding: 50px 200px;
 }
 .nav-title {
   font-weight: 800;
@@ -47,7 +47,7 @@ nav li {
 
 /* banner style */
 .banner {
-  padding: 0 38px 0 150px;
+  padding: 0 38px 0 200px;
   display: flex;
   align-items: center;
 }
