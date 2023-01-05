@@ -20,7 +20,10 @@
   background-image: url("../images/color_bg.png"),
     url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right, left 23px;
+  background-position: bottom right, left;
+}
+section {
+  margin-top: 130px;
 }
 
 /* header and navigation styles */
@@ -69,7 +72,6 @@ main {
 }
 /* about style */
 .about {
-  margin-top: 130px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -101,10 +103,6 @@ main {
 }
 
 /* skills section. What i do styles */
-
-.skills-section {
-  margin-top: 130px;
-}
 .skills-container {
   display: flex;
   gap: 24px;
@@ -123,4 +121,37 @@ main {
 }
 .skill-desc {
   color: #757575;
+}
+
+/* resume styles */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+.resume-item {
+  margin: 30px 0;
+}
+.resume-item-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume-item-sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-item-desc {
+  color: #757575;
+}
+.resume-btn {
+  margin-top: 50px;
+  text-align: center;
 }
