@@ -30,7 +30,7 @@ section {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 50px 200px;
+  padding: 50px 150px;
 }
 .nav-title {
   font-weight: 800;
@@ -47,7 +47,7 @@ nav li {
 
 /* banner style */
 .banner {
-  margin: 0 38px 0 200px;
+  padding: 0 38px 0 150px;
   display: flex;
   align-items: center;
 }
@@ -78,7 +78,7 @@ main {
   text-align: center;
 }
 .section-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 35px;
   text-align: center;
@@ -154,4 +154,42 @@ main {
 .resume-btn {
   margin-top: 50px;
   text-align: center;
+}
+
+/* contact section */
+
+.contact-section {
+  display: flex;
+  gap: 100px;
+  background-color: #fff8f3;
+  padding: 100px 150px;
+}
+.contact-section .section-title {
+  text-align: left;
+}
+.contact-section input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  width: 100%;
+  padding: 18px 30px;
+  border: 0;
+}
+.contact-section textarea {
+  resize: none;
+}
+.contact-section input {
+  height: 64px;
+}
+.contact-section a {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+.contact-section a:hover {
+  background-color: #e7dada;
+}
+.contact-icons {
+  display: flex;
+  gap: 30px;
 }
